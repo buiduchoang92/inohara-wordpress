@@ -16,7 +16,7 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
 
 	<div class="bnr_top_page">
                 <img src="./wp-content/themes/inohara-bui2/img/top/bnr_top_page01.jpg" alt="">
@@ -78,5 +78,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

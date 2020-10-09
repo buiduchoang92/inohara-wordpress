@@ -16,10 +16,10 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
 	<div class="page_title_sitemap">
                 <h2>
-                    <img src="../wp-content/themes/inohara-bui2/img/common/pic_page_ttl_sitemap.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/common/pic_page_ttl_sitemap.png" alt="">
                 </h2>
             </div>
             <div class="breadcrumb">
@@ -51,5 +51,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

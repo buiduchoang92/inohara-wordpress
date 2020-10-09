@@ -16,10 +16,10 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
     <div class="page_title_product">
                 <h2>
-                    <img src="../wp-content/themes/inohara-bui2/img/product/pic_page_ttl_product.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_page_ttl_product.png" alt="">
                 </h2>
             </div>
             <div class="breadcrumb">
@@ -53,10 +53,10 @@ get_header();
                             <p>省力機械 ／ 生産機械 ／ 作業台の設計・製作</p>
                         </div>
                         <div class="ctn_product_right">
-                            <img src="../wp-content/themes/inohara-bui2/img/product/pic_product_detail01.jpg" alt="">
-                            <img src="../wp-content/themes/inohara-bui2/img/product/pic_product_detail02.jpg" alt="">
-                            <img src="../wp-content/themes/inohara-bui2/img/product/pic_product_detail03.jpg" alt="">
-                            <img src="../wp-content/themes/inohara-bui2/img/product/pic_product_detail04.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_product_detail01.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_product_detail02.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_product_detail03.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_product_detail04.jpg" alt="">
                         </div>
                     </div>
                     <div class="box_common_infor">
@@ -169,7 +169,7 @@ get_header();
                                 <td>オーエスジー株式会社</td>
                                 <td class="product_orange_book">
                                     <a href="">
-                                        <img src="../wp-content/themes/inohara-bui2/img/product/pic_orange_book.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/product/pic_orange_book.jpg" alt="">
                                     </a>
                                 </td>
                             </tr>
@@ -188,5 +188,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

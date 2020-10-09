@@ -16,11 +16,11 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
     
     <div class="page_title_contact">
                 <h2>
-                    <img src="../wp-content/themes/inohara-bui2/img/contact/pic_page_ttl_contact.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_page_ttl_contact.png" alt="">
                 </h2>
             </div>
             <div class="breadcrumb">
@@ -35,8 +35,8 @@ get_header();
                 <div class="inner">
                     <h3 class="ttl_common_section mb-42">お電話・FAXでのお問い合わせ</h3>
                     <div class="box_common_infor">
-                            <a class="contact_tell" href=""><img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_tell.png" alt=""></a>
-                            <a class="contact_fax" href=""><img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_fax.png" alt=""></a>
+                            <a class="contact_tell" href=""><img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_tell.png" alt=""></a>
+                            <a class="contact_fax" href=""><img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_fax.png" alt=""></a>
                     </div>
                 </div>
             <!--End contact_sec01--></section>
@@ -56,11 +56,11 @@ get_header();
                                     <td><input type="text" name="会社名" ></td>
                                 </tr>
                                 <tr>
-                                    <th>お名前<img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_star.jpg" alt=""></th>
+                                    <th>お名前<img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_star.jpg" alt=""></th>
                                     <td><input type="text" name="お名前" required></td>
                                 </tr>
                                 <tr>
-                                    <th>メールアドレス<img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_star.jpg" alt=""></th>
+                                    <th>メールアドレス<img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_star.jpg" alt=""></th>
                                     <td><input type="text" name="メールアドレス"></td>
                                 </tr>
                                 <tr>
@@ -72,7 +72,7 @@ get_header();
                                     <td><input type="text" name="FAX番号"></td>
                                 </tr>
                                 <tr>
-                                    <th>お問い合わせ内容<img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_star.jpg" alt=""></th>
+                                    <th>お問い合わせ内容<img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_star.jpg" alt=""></th>
                                     <td><textarea type="text" name="お問い合わせ内容"></textarea></td>
                                 </tr>
                             </tbody>
@@ -87,5 +87,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

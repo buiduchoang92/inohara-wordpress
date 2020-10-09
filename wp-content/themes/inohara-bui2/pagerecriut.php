@@ -16,10 +16,10 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
 	<div class="page_title_recruit">
                 <h2>
-                    <img src="../wp-content/themes/inohara-bui2/img/recruit/pic_page_ttl_recruit.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/recruit/pic_page_ttl_recruit.png" alt="">
                 </h2>
             </div>
             <div class="breadcrumb">
@@ -75,7 +75,7 @@ get_header();
                         <p>電話またはメールフォームでご連絡の上、履歴書（写真貼付）を郵送してください。
                            <br> ご応募の秘密は厳守いたします。</p>
                         <div class="box_in_infor">
-                            <a href=""><img src="../wp-content/themes/inohara-bui2/img/contact/pic_contact_tell.png" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/contact/pic_contact_tell.png" alt=""></a>
                             <p>担当&nbsp;&nbsp;／&nbsp;&nbsp;採用係&nbsp;&nbsp;&nbsp;&nbsp;履歴書送付先&nbsp;&nbsp;／&nbsp;&nbsp;〒340-0808&nbsp;&nbsp;&nbsp;埼玉県八潮市緑町2丁目17番地1</p>
                         </div>
                     </div>
@@ -83,11 +83,10 @@ get_header();
             <!--End recruit_sec01--></section>
             <div class="common_sec01 inner">
                 <a href="../contact">
-                    <img src="../wp-content/themes/inohara-bui2/img/common/btn_common_contact.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/common/btn_common_contact.jpg" alt="">
                 </a>
             </div>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

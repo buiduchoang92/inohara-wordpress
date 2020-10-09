@@ -27,19 +27,19 @@
 
 	<header id="header">
             <h1>
-                <a href="../"><img src="../wp-content/themes/inohara-bui2/img/common/hd_logo.png" alt=""></a>
+                <a href="../"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/common/hd_logo.png" alt="Logo" /></a>
             </h1>
             <div id="toggle" class="menu_collapse">
-                <img class="icon_open" src="../wp-content/themes/inohara-bui2/img/common/icon_hd_open.png" alt="">
-                <img class="icon_close" src="../wp-content/themes/inohara-bui2/img/common/icon_hd_close.png" alt="">
+                <img class="icon_open" src="<?php echo get_template_directory_uri(); ?>/img/common/icon_hd_open.png" alt="">
+                <img class="icon_close" src="<?php echo get_template_directory_uri(); ?>/img/common/icon_hd_close.png" alt="">
             </div>
             <nav id="gNav" class="gNav_wrapper">
                 <ul>
-                    <li><a href="../">トップ</a></li>
-                    <li><a href="../company">会社案内</a></li>
-                    <li><a href="../product">取扱製品</a></li>
-                    <li><a href="../recruit">採用情報</a></li>
-                    <li class="mail_contact"><a href="../contact"><img src="../wp-content/themes/inohara-bui2/img/common/hd_mail_contact.png" alt=""></a></li>
+                    <li><a href="<?php echo home_url() ?>">トップ</a></li>
+                    <li><a href="<?php echo home_url() ?>/company">会社案内</a></li>
+                    <li><a href="<?php echo home_url() ?>/product">取扱製品</a></li>
+                    <li><a href="<?php echo home_url() ?>/recruit">採用情報</a></li>
+                    <li class="mail_contact"><a href="<?php echo home_url() ?>/contact"><img src="<?php echo get_template_directory_uri(); ?>/img/common/hd_mail_contact.png" alt=""></a></li>
                 </ul>
             <!--nav--></nav>
 

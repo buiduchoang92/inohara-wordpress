@@ -16,10 +16,10 @@
 get_header();
 ?>
 
-	<main id="main" class="mt-70">
+	<main id="main" class="mt-40">
 	<div class="page_title_company">
                 <h2>
-                    <img src="../wp-content/themes/inohara-bui2/img/company/pic_page_ttl_company.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/company/pic_page_ttl_company.png" alt="">
                 </h2>
             </div>
             <div class="breadcrumb">
@@ -83,8 +83,8 @@ get_header();
                         </tbody>
                     </table>
                     <div class="company_image_introduce">
-                        <img class="img_introduce01" src="../wp-content/themes/inohara-bui2/img/company/pic_company_img_introduce01.jpg" alt="">
-                        <img class="img_introduce02" src="../wp-content/themes/inohara-bui2/img/company/pic_company_img_introduce02.jpg" alt="">
+                        <img class="img_introduce01" src="<?php echo get_template_directory_uri(); ?>/img/company/pic_company_img_introduce01.jpg" alt="">
+                        <img class="img_introduce02" src="<?php echo get_template_directory_uri(); ?>/img/company/pic_company_img_introduce02.jpg" alt="">
                     </div>
                     <div class="company_map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.999624279327!2d139.8305628148233!3d35.82448492971031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601890f517692de1%3A0x6a4380248852cb90!2z5pel5pys44CB44CSMzQwLTA4MDgg5Z-8546J55yM5YWr5r2u5biC57eR55S677yS5LiB55uu77yR77yX4oiS77yR!5e0!3m2!1sja!2s!4v1597898527109!5m2!1sja!2s"></iframe>
@@ -100,5 +100,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

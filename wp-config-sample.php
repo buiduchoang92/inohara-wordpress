@@ -20,7 +20,7 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define('DB_NAME', 'inohara_bui');
+define('DB_NAME', 'inohara');
 
 /** Username của database */
 define('DB_USER', 'root');

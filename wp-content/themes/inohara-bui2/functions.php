@@ -184,4 +184,21 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-
+function override_admin_bar_css() { 
+	if ( is_admin_bar_showing() ) { ?>
+	   <style type="text/css">
+		  #header {
+			  top: 32px
+		  }
+		  @media only screen and (max-width: 782px) {
+			#header {
+			  top: 46px
+		  }
+		  }
+	   </style>
+	<?php }
+ }
+ // on backend area
+ add_action( 'admin_head', 'override_admin_bar_css' );
+ // on frontend area
+ add_action( 'wp_head', 'override_admin_bar_css' );
